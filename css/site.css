@@ -103,3 +103,68 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
+/* Formulário de compra */
+form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    margin-top: 20px;
+    max-width: 400px;
+    -webkit-box-shadow: 5px 5px 18px 5px rgba(0,0,0,0.32); 
+    box-shadow: 5px 5px 18px 5px rgba(0,0,0,0.32);
+}
+
+form h2 {
+    color: brown;
+    margin-bottom: 15px;
+}
+
+form label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="number"] {
+   width: 100%;
+   padding: 8px;
+   margin-bottom: 15px;
+   border: 1px solid #cccccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+}
+
+form input[type="radio"] {
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+form input[type="radio"]:first-of-type {
+    margin-left: 0px;
+}
+
+form p {
+    margin-bottom: 5px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+form button[type="submit"] {
+    background-color: brown;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 100%;
+    margin-top: 10px;
+    font-family: "Roboto", sans-serif;
+}
+
+form button[type="submit"]:hover {
+    background-color: orangered;
+}
