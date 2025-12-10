@@ -30,5 +30,36 @@
             <li>Cowboy</li>
             <li>Chucky</li>
         </ol> 
+        <h2 class="titulo-secao">Assine nossa newsletter!</h2>
+        <form action="https://httpbin.org/post" method="POST">
+            <div class="item-formulario">
+                <label for="nome-tutor">Nome do Tutor:</label>
+                <input type="text" id="nome-tutor" name="nome-tutor" placeholder="Digite seu nome..." />
+            </div>
+            <div class="item-formulario">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required placeholder="seuemail@exemplo.com" />
+            </div>
+            <div class="item-formulario">
+                <label for="tipo-pet">Qual o tipo do seu pet?</label>
+                <select id="tipo-pet" name="tipo-pet">
+                    <option value="" selected disabled>-- Selecione uma opção --</option>
+                    <option value="cao">Cão</option>
+                    <option value="gato">Gato</option>
+                    <option value="outro">Outro</option>
+                </select>
+            </div>
+            <div class="item-formulario">
+                <label for="nascimento-pet">Data de Nascimento do Pet:</label>
+                <input type="date" id="nascimento-pet" name="nascimento-pet" />
+            </div>
+            <div class="item-formulario">
+                <label for="sugestao">Sugestão:</label>
+                <textarea id="sugestao" name="sugestao" rows="4" cols="50" placeholder="Deixe sua sugestão aqui..."></textarea>
+            </div>
+            <!-- As duas maneiras de criar botão submit estão corretas -->
+            <!-- <input type="submit" value="Quero Descontos!" /> -->
+            <button type="submit">Quero descontos!</button>
+        </form>
     </body>
 </html>
