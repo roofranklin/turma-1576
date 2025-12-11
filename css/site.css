@@ -9,6 +9,10 @@
     font-size: 14px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: "Indie Flower", cursive;
     margin: 0;
@@ -24,6 +28,26 @@ h1, h2, h3, h4, h5, h6 {
     padding: 10px;
     border-radius: 8px;
     color: white;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
 }
 
 /* Estilos da Homepage */
