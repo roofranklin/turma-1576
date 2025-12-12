@@ -192,3 +192,23 @@ form button[type="submit"] {
 form button[type="submit"]:hover {
     background-color: orangered;
 }
+
+/* Blog */
+.conteudo-pagina {
+    display: flex;
+    gap: 20px;
+}
+
+main {
+    flex: 3;
+}
+
+aside {
+    flex: 1;
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+article {
+    padding: 30px 0;
+}
