@@ -103,8 +103,17 @@ section[id] {
     text-align: center;
 }
 
+.produto figure {
+    overflow: hidden; /* Garante que a imagem ampliada não ultrapasse os limites da figure */
+}
+
 .produto img {
     width: 100%;
+    transition: transform 0.3s ease; /* Adiciona uma transição suave */
+}
+
+.produto figure:hover img {
+    transform: scale(1.25); /* Aplica o zoom de 125% */
 }
 
 .produto a {
@@ -277,6 +286,11 @@ footer {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.galeria-grid img:hover {
+    zoom: 1.25;
+    transition: ease-in-out 1s;
 }
 
 @media(max-width: 768px) {
